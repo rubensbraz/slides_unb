@@ -1,0 +1,122 @@
+\documentclass[presentation]{beamer}
+
+% Pacotes
+\usepackage{color}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{lmodern}  
+\usepackage{nomencl} 
+\usepackage{lipsum}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{multimedia}
+\usepackage{subcaption}
+\usepackage{braket}
+\usepackage{abntex2cite}
+\usepackage{enumerate}
+\usepackage{epsfig}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{capt-of}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[brazil]{babel}   
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Estética
+\apptocmd{\frame}{}{\justifying}{}
+\usetheme{Berlin}
+\usecolortheme{unb}
+\beamertemplatenavigationsymbolsempty
+
+% Título do projeto
+\title{Título do projeto aqui}
+
+% Data de apresentação
+\date{xx de setembro de 202x}
+
+% Alunos e orientador
+\author[Nome no rodapé]{Alunos:\\Aluno 1\\Aluno 2\\~\\Orientador:\\Prof. Dr. Orientador}
+
+\institute{UnB | ENE}
+
+% Criar menu na parte superior do slide
+\AtBeginSection[]{
+  \begin{frame}<beamer>
+    \frametitle{Seções do Trabalho}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Sumário
+\frame{\titlepage}
+
+%%% %%% %%% Seção 1 - Introdução
+
+\section{Introdução}
+
+\subsection{Definição do problema}
+
+\begin{frame}{\textit{Definição do problema}}
+    Legal
+\end{frame}
+
+%%% %%% %%% Seção 2 - Fundamentação teórica
+
+\section{Fundamentação teórica}
+
+\subsection{\textit{Front-end}}
+
+\begin{frame}{\textit{Front-end}}
+    Legal
+\end{frame}
+
+\subsection{\textit{Back-end}}
+
+\begin{frame}{\textit{Back-end}}
+    Legal
+\end{frame}
+
+%%% %%% %%% Seção 3 - Metodologia
+
+\section{Metodologia}
+
+\subsection{\textit{Front-end}}
+
+\begin{frame}{\textit{Front-end}}
+    Legal
+\end{frame}
+
+\subsection{\textit{Back-end}}
+
+\begin{frame}{\textit{Back-end}}
+    Legal
+\end{frame}
+
+%%% %%% %%% Seção 4 - Resultado
+
+\section{Resultado}
+
+\begin{frame}{Observações sobre os resultados}
+    Legal
+\end{frame}
+
+%%% %%% %%% Seção 5 - Conclusão
+\section{Conclusão}
+
+\begin{frame}{Considerações finais}
+    Legal
+\end{frame}
+
+%%% %%% %%% Final do documento
+\maketitle
+\end{document}
